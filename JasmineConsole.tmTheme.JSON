@@ -1,0 +1,33 @@
+{
+    "name": "JasmineConsole",
+    "settings": [
+        {
+            "settings": {
+                "background": "#042029",
+                "caret": "#A7A7A7",
+                "foreground": "#536871",
+                "invisibles": "#CAE2FB3D",
+                "lineHighlight": "#FFFFFF0D",
+                "selection": "#DDF0FF33"
+            }
+        },
+        {
+            "scope": "test.pass",
+            "settings": {
+                "foreground": "#2AA198"
+            }
+        },
+        {
+            "scope": "test.error",
+            "settings": {
+                "foreground": "#D33682"
+            }
+        },
+        {
+            "scope": "test.error_help",
+            "settings": {
+                "foreground": "#839496"
+            }
+        }
+    ]
+}

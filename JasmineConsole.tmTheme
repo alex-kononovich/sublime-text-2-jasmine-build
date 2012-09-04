@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>JasmineConsole</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#042029</string>
+        <key>caret</key>
+        <string>#A7A7A7</string>
+        <key>foreground</key>
+        <string>#536871</string>
+        <key>invisibles</key>
+        <string>#CAE2FB3D</string>
+        <key>lineHighlight</key>
+        <string>#FFFFFF0D</string>
+        <key>selection</key>
+        <string>#DDF0FF33</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>test.pass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#2AA198</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>test.error</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#D33682</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>scope</key>
+      <string>test.error_help</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#839496</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>

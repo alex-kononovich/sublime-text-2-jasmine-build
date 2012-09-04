@@ -1,0 +1,6 @@
+{
+  "env": { "LANG": "en_US.UTF-8"},
+  "cmd": ["/Users/alex/.rvm/bin/rvm", "1.9.3", "exec", "bundle", "exec", "jasmine-headless-webkit"],
+  "working_dir": "$project_path",
+  "file_regex": "^.+\\((.+):([0-9]+)\\)$"
+}

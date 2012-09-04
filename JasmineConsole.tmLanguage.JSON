@@ -1,0 +1,22 @@
+{
+    "name": "JasmineConsole",
+    "patterns": [
+        {
+            "match": "\\d+ tests",
+            "name": "test.pass"
+        },
+        {
+            "match": "Expected (.+) to be ([^.]+)",
+            "name": "test.error_help",
+             "captures": {
+              "1": {"name": "test.error"},
+              "2": {"name": "test.error"}
+            }
+        },
+        {
+            "match": "\\d+ failure",
+            "name": "test.error"
+        }
+    ],
+    "scopeName": "console"
+}
