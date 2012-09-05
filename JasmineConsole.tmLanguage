@@ -8,7 +8,7 @@
   <array>
     <dict>
       <key>match</key>
-      <string>\d+ tests</string>
+      <string>\d+ test(s*)|PASS</string>
       <key>name</key>
       <string>test.pass</string>
     </dict>
@@ -33,7 +33,7 @@
     </dict>
     <dict>
       <key>match</key>
-      <string>\d+ failure</string>
+      <string>\d+ failure(s*)|FAIL</string>
       <key>name</key>
       <string>test.error</string>
     </dict>

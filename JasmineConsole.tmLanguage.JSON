@@ -2,7 +2,7 @@
     "name": "JasmineConsole",
     "patterns": [
         {
-            "match": "\\d+ tests",
+            "match": "\\d+ test(s*)|PASS",
             "name": "test.pass"
         },
         {
@@ -14,7 +14,7 @@
             }
         },
         {
-            "match": "\\d+ failure",
+            "match": "\\d+ failure(s*)|FAIL",
             "name": "test.error"
         }
     ],
