@@ -6,7 +6,7 @@
             "name": "test.pass"
         },
         {
-            "match": "(Type)*Error: .+$",
+            "match": "(Type|Reference)*Error: .+$",
             "name": "test.error_help",
         },
         {
