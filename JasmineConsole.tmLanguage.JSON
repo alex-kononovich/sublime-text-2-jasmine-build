@@ -6,6 +6,10 @@
             "name": "test.pass"
         },
         {
+            "match": "(Type)*Error: .+$",
+            "name": "test.error_help",
+        },
+        {
             "match": "Expected (.+) to (be|have) ([^.]+)",
             "name": "test.error_help",
              "captures": {
