@@ -23,11 +23,16 @@
         <key>2</key>
         <dict>
           <key>name</key>
+          <string>test.error_help</string>
+        </dict>
+        <key>3</key>
+        <dict>
+          <key>name</key>
           <string>test.error</string>
         </dict>
       </dict>
       <key>match</key>
-      <string>Expected (.+) to be ([^.]+)</string>
+      <string>Expected (.+) to (be|have) ([^.]+)</string>
       <key>name</key>
       <string>test.error_help</string>
     </dict>

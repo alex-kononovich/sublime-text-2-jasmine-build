@@ -6,11 +6,12 @@
             "name": "test.pass"
         },
         {
-            "match": "Expected (.+) to be ([^.]+)",
+            "match": "Expected (.+) to (be|have) ([^.]+)",
             "name": "test.error_help",
              "captures": {
               "1": {"name": "test.error"},
-              "2": {"name": "test.error"}
+              "2": {"name": "test.error_help"},
+              "3": {"name": "test.error"}
             }
         },
         {
